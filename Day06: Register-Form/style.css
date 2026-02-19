@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #000;
+    background-image:url(/photo/photo.jpeg);
     font-family: "Roboto Mono", monospace;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@ body{
 }
 
 .register-container{
-    background-color: #333333;
+    background-image: url(/photo/photo1.jpg);
     padding: 32px 48px;
     border-radius: 15px;
     color: white;
@@ -26,12 +26,13 @@ body{
 }
 
 .register-container h1{
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(255, 255, 255);
     text-align: center;
     border-radius: 12px;
     font-size: 32px;
     padding: 10px;
     margin-bottom: 32px;
+    color: black;
     
 }
 
@@ -43,7 +44,8 @@ body{
 
 .register-container input[type="text"],
 .register-container input[type="password"] {
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(255, 255, 255);
+    color: black;
     width: 100%;
     padding: 12px;
     font-size: 17.5px;
